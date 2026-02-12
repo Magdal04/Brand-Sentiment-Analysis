@@ -1,0 +1,2 @@
+# Requirements for Brand Sentiment Analysis Project
+# Add your project dependencies here
