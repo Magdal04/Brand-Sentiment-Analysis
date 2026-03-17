@@ -1,2 +1,11 @@
-# Requirements for Brand Sentiment Analysis Project
-# Add your project dependencies here
+pandas
+nltk
+gensim
+scikit-learn
+google-api-python-client
+python-dotenv
+emoji
+numpy
+fastapi
+uvicorn
+uvicorn[standard]

@@ -1,0 +1,54 @@
+__pycache__
+*.pyc
+.env
+data/processed/*.jsonl
+data/processed/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+*.env
+.env.local
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Data (optional - include if data is large)
+# data/raw/*
+# data/processed/*
+
+# Logs
+logs/
+*.log
+
+# Documentation
+README.md
+docs/
