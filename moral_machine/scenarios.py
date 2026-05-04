@@ -67,7 +67,7 @@ class Scenario:
 
 def generate_ambulance_split_scenario() -> Scenario:
     """
-    Scenario 1 – Ambulance Split (triage under uncertainty).
+    Ambulance Split (triage under uncertainty).
 
     A dispatcher must choose which patient group gets the single ICU slot.
     """
@@ -130,7 +130,7 @@ def generate_ambulance_split_scenario() -> Scenario:
 
 def generate_rare_drug_scenario() -> Scenario:
     """
-    Scenario 3 – Rare Drug Allocation (fairness vs. utility).
+    Rare Drug Allocation (fairness vs. utility).
 
     One dose of a scarce medication; two patients with contrasting prognoses.
     """
@@ -193,7 +193,7 @@ def generate_rare_drug_scenario() -> Scenario:
 
 def generate_emergency_alert_scenario() -> Scenario:
     """
-    Scenario 6 – Emergency Alert: False Alarm vs. Late Warning.
+    Emergency Alert: False Alarm vs. Late Warning.
 
     An AI flood-prediction model suggests issuing an alert now or waiting for
     satellite confirmation.
@@ -254,7 +254,7 @@ def generate_emergency_alert_scenario() -> Scenario:
 
 def generate_medical_ai_scenario() -> Scenario:
     """
-    Scenario 7 – Medical AI: Explainability vs. Performance.
+    Medical AI: Explainability vs. Performance.
 
     Choose between a transparent-but-less-accurate model and an opaque-but-better one.
     """
@@ -320,7 +320,7 @@ def generate_medical_ai_scenario() -> Scenario:
 
 def generate_disaster_relief_scenario() -> Scenario:
     """
-    Scenario 9 – Disaster Relief: "First Come" vs. "Most Need".
+    Disaster Relief: "First Come" vs. "Most Need".
 
     Limited aid packages after a hurricane; choose the distribution method.
     """
@@ -375,7 +375,7 @@ def generate_disaster_relief_scenario() -> Scenario:
 
 def generate_drone_strike_scenario() -> Scenario:
     """
-    Scenario 11 – Autonomous Drone: Strike Under Uncertainty.
+    Autonomous Drone: Strike Under Uncertainty.
 
     High-confidence target ID with nearby civilian presence; strike now or wait?
     """
@@ -434,7 +434,7 @@ def generate_drone_strike_scenario() -> Scenario:
 
 def generate_elder_care_robot_scenario() -> Scenario:
     """
-    Scenario 12 – Elder Care Robot: Autonomy vs. Wellbeing.
+    Elder Care Robot: Autonomy vs. Wellbeing.
 
     Robot detects medication non-compliance; patient refuses assistance.
     """
