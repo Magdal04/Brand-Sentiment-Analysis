@@ -9,3 +9,6 @@ numpy
 fastapi
 uvicorn
 uvicorn[standard]
+streamlit
+openai
+requests
