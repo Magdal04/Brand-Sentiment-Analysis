@@ -1,0 +1,15 @@
+pandas
+nltk
+gensim
+scikit-learn
+google-api-python-client
+python-dotenv
+emoji
+numpy
+fastapi
+uvicorn
+uvicorn[standard]
+plotly
+newsapi-python
+streamlit
+requests
